@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+font-family: 'Roboto', sans-serif;	
+}
+.main-top-header
+{
+background-color: #703f54;
+height:140px; 	
+}
+.top-header
+{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 25px;
+}
+.top-header .menu{
+	   width: 100%;
+		display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+.top-header .menu ul   li{
+	display: inline;
+	color:#fff;
+	font-size:12px;
+}
+.top-header .menu ul li span{
+	color:#ff6600;
+	margin: 0 15px;
+}
+nav .menu
+{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #eee; 
+	border-radius: 10px ;
+	position: relative;
+	top:-40px;
+	display: flex;
+	justify-content: center;
+
+}
+nav .menu ul{
+	width: 100%;
+}
+nav .menu ul li, nav .menu ul li .input-group
+{
+	display: inline-block;
+}
+nav .menu ul li 
+{
+	padding: 20px 15px;
+	font-weight: bold;
+}
+nav .menu ul li a
+{
+	margin: 0 25px;
+	text-decoration: none;
+	color:#222;
+	text-transform: uppercase;
+}
+nav .menu ul li a.active
+{
+	color: #ff6600;
+}
+nav .menu ul li .input-group
+{
+	position: relative;
+}
+nav .menu ul li .input-group input
+{
+       padding: 10px;
+       border: 1px solid #eee;
+       border-radius: 4px;
+       position: relative;
+       padding-right: 40px;
+
+}
+nav .menu ul li .input-group span
+{
+	position: absolute;
+	right: 5px;
+	top: 10px; 
+	font-weight: bold;
+}
+.login	
+{
+	border:none; 
+	color:white;
+	padding-right: 20px;/
+	/*padding-left: 10px;*/
+}
+
+#menu .menu ul ul
+{
+	margin-top: 10px;
+	background:white;
+	width:150px;
+	padding:0;
+	position:absolute;
+	display: none;
+}
+#menu .menu ul ul li
+{
+
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:2px;
+	display: none;
+}
+#menu .menu ul li:hover > ul
+{
+  z-index: 200;
+  display:block;
+ 
+}
+#sign a:hover{
+	color:	#ff6600;
+}
+#login a:hover{
+	color:	#ff6600;
+}
+#logout a:hover{
+	color:	#ff6600;
+}
+
+#hiddenmenu
+{
+display: none;
+/*position: fixed;*/
+/*top:0;*/
+/*z-index: 121;*/
+}
+nav .hiddenmenu
+{
+
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #eee; 
+	/*border-radius: 10px ;*/
+	/*position: relative;*/
+	top:-40px;
+	padding: 2px 40px;
+	display: flex;
+	justify-content: center;
+
+}
+nav .hiddenmenu ul{
+	float: right;
+	width: 100%;
+}
+nav .hiddenmenu ul li, nav .hiddenmenu ul li .input-group
+{
+	display: inline-block;
+}
+nav .hiddenmenu ul li 
+{
+	padding: 20px 15px;
+	font-weight: bold;
+}
+nav .hiddenmenu ul li a
+{
+	margin: 0 25px;
+	text-decoration: none;
+	color:#222;
+	text-transform: uppercase;
+}
+nav .hiddenmenu ul li a.active
+{
+	color: #ff6600;
+}

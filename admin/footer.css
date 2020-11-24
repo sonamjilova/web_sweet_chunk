@@ -1,0 +1,115 @@
+
+#footer{
+    
+    	width: 100%;
+	height: 190px;
+	/*background-color: #2b2b2b;*/
+ 	overflow: auto;
+ padding: 20px 0 5px 0;
+  text-align: center; 
+  color: #FFF;
+ 
+ 
+}
+#footer h3 , #footer a, #footer span, #footer p
+{
+     font-family:sans-serif;
+}
+#footer #left{
+    /*border: 1px solid red;*/
+    width: 400px;
+    float: left;
+    height: 125px;
+    padding: 5px;
+	text-align:center;
+    padding-left: -100px;
+    margin-left: 30px;
+    
+}
+#footer .Foooter_heading
+{
+    font-weight: bold;
+    font-size: 1.17em;
+}
+#left img{
+    width: 50px; 
+    height: 50px;
+    margin-left: -20px; 
+}
+#left p{
+    width: 330px;
+    float: right;
+    margin-left: -35px;
+}
+#footer #left  a:hover
+{
+    color: #FFF;
+  text-decoration: underline;
+}
+#footer #mane{
+    color: foooter;
+    /*border: 1px solid red;*/
+    /*line-height: 100px;*/
+    /*padding-top: -100px;*/
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+#footer #medium{
+    width: 400px;
+    float: left;
+    /*border: 1px solid red;*/
+       padding: 3px;
+       /*font-size: 16px;*/
+ margin-left: 10%;
+}
+#footer #medium p{
+    font-size: 16px;
+}
+#footer #right
+{
+ /*border:1px solid red;*/   
+    width:400px;
+    float: right;
+}
+#foot_data_block
+{
+	/*border: 1px solid white;*/
+	width: 90%;
+	height: 100px; 
+	/*box-shadow: 0px 2px 2px -3px;*/
+	/*border-bottom: 1.5px solid #120e0a;*/
+	margin: 30px auto;
+	/*overflow: auto;*/
+	/*background-color: #2b2b2b;*/
+}
+#footer section
+{
+    /*border: 1px solid red;*/
+}
+#footer p
+{ padding: 0 0 5px 0;}
+
+#footer #left a
+{ color: #FFF;
+  text-decoration:none;}
+#footer #left a:hover
+/*{ color: #FFF;
+  text-decoration:unerline;}*/
+
+/*#footer a, #footer a:hover
+{ color: #FFF;
+  text-decoration: underline;}*/
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: none;}
+ span#email_design:hover
+{ color: #FFF;
+  text-decoration: none;}
+#email_design{
+    cursor: pointer;
+text-decoration: underline  #FFF;;
+}
